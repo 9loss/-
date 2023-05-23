@@ -1,0 +1,16 @@
+<!-- profiles/templates/profile_create.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Creation</title>
+</head>
+<body>
+    <h1>Profile Creation</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Create Profile</button>
+    </form>
+</body>
+</html>
