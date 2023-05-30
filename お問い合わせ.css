@@ -1,0 +1,93 @@
+form{
+    max-width: 680px;
+    width: calc(100% - 10px);
+    margin: 0 auto;
+    font-size: 20px;
+    }
+    
+    header {
+      width: 100%;
+      height: 100px;
+      background-color: white;
+      align-items: center;
+    }
+    
+    .header-list li {
+      list-style: none;
+      float: right;
+      padding: 10px 10px;
+    }
+    
+    .item{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    }
+    
+    .sex{
+    padding-top: 20px;
+    }
+    
+    .label{
+    width: 180px;
+    padding-left: 10px;
+    border-left: solid 5px #a0522d;
+    }
+    
+    .label-required{
+    color: #ff6347;
+    font-weight: bold; 
+    font-size: 18px;
+    }
+    
+    input[type="text"],input[type="email"]{
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    }
+    
+    select{
+    appearance: none;
+    cursor: pointer;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    }
+    
+    textarea{
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    height: 160px;
+    width: 480px;
+    font-size: 15px;
+    }
+    
+    .btn{
+    text-align: center;
+    margin: 25px auto;
+    }
+    
+    button{
+    background: #ff6347;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 25px;
+    }
+
+    header {
+        background-color: white;
+        width: auto;
+      }
+      
+
+      .header-list li {
+        list-style: none;
+        float: right;
+        padding: 10px 10px;
+      }
