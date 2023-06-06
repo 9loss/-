@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>プロフィール登録</title>
+    <link rel="stylesheet" type="text/css" href="prof_toroku.css">
+    <script src="prof_toroku.js"></script>
+    <style>
+        .hobby-label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>プロフィール登録</h1>
+    <form id="profileForm" action="register.php" method="POST" enctype="multipart/form-data">
+        <label for="username">ユーザー名:</label>
+        <input type="text" id="username" required><br><br>
+        <label for="grade">学年:</label>
+        <select id="grade" required>
+            <option value="" disabled selected>選択してください</option>
+            <option value="1">1年生</option>
+            <option value="2">2年生</option>
+            <option value="3">3年生</option>
+        </select><br><br>
+        <label for="hobby">趣味:</label><br>
+        <input type="checkbox" id="hobby1" name="hobby" value="スポーツ">
+        <label class="hobby-label" for="hobby1">スポーツ</label>
+        <input type="checkbox" id="hobby2" name="hobby" value="音楽">
+        <label class="hobby-label" for="hobby2">音楽</label>
+        <input type="checkbox" id="hobby3" name="hobby" value="読書">
+        <label class="hobby-label" for="hobby3">読書</label>
+        <input type="checkbox" id="hobby4" name="hobby" value="ゲーム">
+        <label class="hobby-label" for="hobby4">ゲーム</label>
+        <input type="checkbox" id="hobby5" name="hobby" value="散歩">
+        <label class="hobby-label" for="hobby5">散歩</label>
+        <input type="checkbox" id="hobby6" name="hobby" value="アニメ・漫画">
+        <label class="hobby-label" for="hobby6">アニメ・漫画</label>
+        <input type="checkbox" id="hobby7" name="hobby" value="映画">
+        <label class="hobby-label" for="hobby7">映画</label>
+        <input type="checkbox" id="hobby8" name="hobby" value="カフェ巡り">
+        <label class="hobby-label" for="hobby8">カフェ巡り</label>
+        <input type="checkbox" id="hobby9" name="hobby" value="Twitter">
+        <label class="hobby-label" for="hobby9">Twitter</label>
+        <input type="checkbox" id="hobby10" name="hobby" value="ラーメン">
+        <label class="hobby-label" for="hobby10">ラーメン</label>
+        <input type="checkbox" id="hobby11" name="hobby" value="料理">
+        <label class="hobby-label" for="hobby11">料理</label>
+        <input type="checkbox" id="hobby12" name="hobby" value="プログラミング">
+        <label class="hobby-label" for="hobby12">プログラミング</label>
+        <input type="checkbox" id="hobby13" name="hobby" value="英語">
+        <label class="hobby-label" for="hobby13">英語</label>
+        <input type="checkbox" id="hobby14" name="hobby" value="資格">
+        <label class="hobby-label" for="hobby14">資格</label><br><br>
+        <label for="campus">キャンパス:</label><br>
+        <input type="radio" id="campus1" name="campus" value="長万部キャンパス">
+        <label for="campus1">長万部キャンパス</label><br>
+        <input type="radio" id="campus2" name="campus" value="神楽坂キャンパス">
+        <label for="campus2">神楽坂キャンパス</label><br><br>
+        <label for="profilePicture">プロフィール写真:</label>
+        <input type="file" id="profilePicture" accept="image/*" required><br><br>
+        <button type="submit">登録</button>
+
+    </form>
+</body>
+
+</html>
